@@ -12,7 +12,7 @@
     <header>
       <div class="head">
         <img src="img\ロゴ.png" class="logo" />
-        <nav>
+        <nav class="pc_nav">
           <ul>
             <li><a href="#home" class="head_link">ホーム</a></li>
             <li><a href="#menu" class="head_link">施術内容</a></li>
@@ -26,20 +26,43 @@
             <img src="img\Vector.png" alt="" />
           </a>
         </div>
+        <nav class="sp_nav">
+          <input type="checkbox" id="hamburger" class="hamburger">
+          <!-- ラベル：ハンバーガーアイコンとして表示 -->
+          <label for="hamburger" class="hamburger-label">
+            <span></span>
+          </label>
+          <ul>
+            <li><a href="#home" class="head_link">ホーム</a></li>
+            <li><a href="#menu" class="head_link">施術内容</a></li>
+            <li><a href="#custmer" class="head_link">お客様の声</a></li>
+            <li><a href="#access" class="head_link">アクセス</a></li>
+            <li>
+              <div class="head_btn">
+                <a href="" class="head_button"
+                  >ご予約はこちら
+                  <img src="img\Vector.png" alt="" />
+                </a>
+              </div>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
     <div class="hero">
       <div class="hero_img">
-        <img src="" alt="">
+        <img src="img\TOP写真.png" alt="">
       </div>
       <div class="hero_text">
-        <p class="hero_title">気候整体</p>
-        <p class="hero_subtitle">足もみ</p>
-        <p class="hero_tagline">（足つぼ）</p>
+        <div class="hero_title_letters">
+                  <p class="hero_title">気候整体</p>
+        <p class="hero_subtitle">足もみ<br><span>(足つぼ)</span> </p>
+        </div>
         <p class="hero_description">
           全ての不調はめぐりの悪さから<br>薬に頼らず体質改善
         </p>
       </div>
+      <div class="hero_tag"></div>
     </div>
   </body>
 </html>
