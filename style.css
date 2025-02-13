@@ -234,4 +234,142 @@ li {
 }
 
 @media screen and (max-width: 864px) {
+  /* PC用の要素を非表示 */
+  .head_btn,
+  .head_button,
+  .pc_nav {
+    display: none;
+  }
+
+  .sp_head_btn,
+  .sp_head_button,
+  .sp_nav {
+    display: block;
+  }
+  .sp_head_btn {
+    margin-left: 4.375rem;
+    background: #deb7b7;
+    box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25); /* 4px -> 0.25rem */
+    width: 13.25rem;
+    height: 3.75rem;
+    padding: 1rem 1.25rem 1rem 1.43rem;
+    border-radius: 0.75rem;
+  }
+  .sp_head_button {
+    white-space: nowrap;
+    color: #5c2020;
+    font-family: "Noto Serif JP";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 0.75rem; /* 12px -> 0.75rem */
+  }
+  
+  .sp_head_btn:hover {
+    border-radius: 0.75rem; /* 12px -> 0.75rem */
+    background: #ebaaaa;
+    box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25); /* 4px -> 0.25rem */
+    transform: translateY(0.1875rem); /* 3px -> 0.1875rem */
+  }
+
+  /* 変更1: ハンバーガーアイコンを非表示ではなく表示 */
+  .hamburger {
+    /* 本来、PC時には非表示、SP時には表示したいため、
+       ここでは display: block; とします */
+    display: none;
+
+  }
+
+  /* --- ハンバーガーアイコン（ラベル）のスタイル --- */
+  .hamburger-label {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 9999;
+    background: none; /* 背景色なし */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ハンバーガーの3本線 */
+  .hamburger-label span,
+  .hamburger-label span::before,
+  .hamburger-label span::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #000; /* 黒 */
+    transition: 0.3s ease;
+  }
+
+  /* 真ん中の線 */
+  .hamburger-label span {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  /* 上の線 */
+  .hamburger-label span::before {
+    top: -8px;
+  }
+  /* 下の線 */
+  .hamburger-label span::after {
+    top: 8px;
+  }
+
+  /* 
+    変更2: メニューを「右端から左へ」スライド表示にする。
+    左から隠すのではなく、right:0; width:60%; transform:translateX(100%);
+  */
+  .sp_nav ul {
+    position: fixed;
+    top: 0;
+    right: 0;           /* 右端に固定 */
+    width: 60%;         /* 横幅60%まで開く */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #fff; /* 背景白 */
+    transform: translateX(100%); /* 初期は画面外(右)に隠す */
+    transition: transform 0.3s ease; /* ぬるっと開閉 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9998;
+  }
+
+  /* メニュー項目の余白調整 */
+  .sp_nav ul li {
+    margin: 1em 0;
+  }
+
+  /* 
+    変更3: チェックONで translateX(0) にして右→左へ表示 
+  */
+  .hamburger:checked + .hamburger-label + ul {
+    transform: translateX(0);
+  }
+
+  /* --- ハンバーガー → × の変形は従来通り --- */
+  /* 真ん中線を透明に */
+  .hamburger:checked + .hamburger-label span {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  /* 上の線を「／」方向に回転 */
+  .hamburger:checked + .hamburger-label span::before {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  /* 下の線を「＼」方向に回転 */
+  .hamburger:checked + .hamburger-label span::after {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
 }
