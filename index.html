@@ -53,16 +53,55 @@
       <div class="hero_img">
         <img src="img\TOP写真.png" alt="">
       </div>
+      <div class="sp_hero_img">
+        <img src="img\sp_TOP.png" alt="">
+      </div>
       <div class="hero_text">
         <div class="hero_title_letters">
-                  <p class="hero_title">気候整体</p>
-        <p class="hero_subtitle">足もみ<br><span>(足つぼ)</span> </p>
+          <p class="hero_title">気候整体</p>
+          <p class="hero_subtitle">足もみ<br><span>(足つぼ)</span> </p>
         </div>
         <p class="hero_description">
-          全ての不調はめぐりの悪さから<br>薬に頼らず体質改善
+          すべての不調はめぐりの悪さから<br>薬に頼らず体質改善
         </p>
       </div>
       <div class="hero_tag"></div>
     </div>
+    <div class="second">
+      <div class="second_title">
+        <p>こんなお悩み、ありませんか？</p>
+      </div>
+      <div class="second_contents">
+        <div class="seccond_details">
+          <img src="img\女性1.png" alt="">
+          <p class="second_detail_title">慢性的な不調が辛い</p>
+          <p class="second_detail_contents">頭痛が続いて仕事や家事に集中できない。手足の冷えが気になり、夜も眠りが浅い。立ち上がるたびに感じるめまいや、重だるい腰の痛み。これらの不調は放っておくと、心と体に負担をかけかけ続けてしまい、深刻な症状へ発展してしまうことも少なくありません。</p>
+        </div>
+        <div class="seccond_details">
+          <img src="img\女性2.png" alt="">
+          <p class="second_detail_title">病院や薬では良くならない症状</p>
+          <p class="second_detail_contents">何度病院に通っても原因がわからない、薬を飲んでも症状が良くならない…。繰り返す不調や違和感に悩んでいるのに、どう対処すればいいのか分からないまま過ごしている方がとても多いのが現状です。</p>
+        </div>
+        <div class="seccond_details">
+          <img src="img\女性3.png" alt="">
+          <p class="second_detail_title">更年期の不調</p>
+          <p class="second_detail_contents">急に汗が止まらなくなったり、疲れやすくなったり。イライラや気持ちの落ち込みが続くことも。更年期にはホルモンバランスの変化によって、これまで感じなかった心や体の不調が家事や仕事など日常に差し支えてしまうこともあります。</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      // ページ読み込み後に実行
+      document.addEventListener('DOMContentLoaded', function() {
+        const hamburger = document.querySelector('.hamburger');
+        
+        // スクロールイベントリスナーを追加
+        window.addEventListener('scroll', function() {
+          if (hamburger.checked) {
+            hamburger.checked = false; // ハンバーガーメニューを閉じる
+          }
+        });
+      });
+    </script>
+    
   </body>
 </html>
