@@ -342,10 +342,25 @@ li {
   height: auto;
 }
 
+.fourth_text1 p{
+  order: 1;
+  color: var(--, #2B2B2B);
+  font-family: "Noto Serif JP";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.fourth_img1 {
+  order: 2;
+}
+
 .fourth_img1 img {
   width: 23.13rem;
   height: 25.94rem;
   flex-shrink: 0;
+  order: 2;
 }
 
 .fourth_img2 img {
@@ -355,6 +370,24 @@ li {
 }
 
 .fourth_text {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  gap: 1.25rem;
+  flex-direction: column;
+}
+
+.fourth_text_title p{
+  color: #2B2B2B;
+  font-family: "Noto Serif JP";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.fourth_text_contexts p{
   color: var(--, #2B2B2B);
   font-family: "Noto Serif JP";
   font-size: 1.25rem;
@@ -362,13 +395,17 @@ li {
   font-weight: 500;
   line-height: normal;
   text-align: left;
+}
+
+.fifth {
+  width: 100%;
+  background-color: #FAF0E6;
   display: flex;
-  gap: 1.25rem;
   flex-direction: column;
 }
 
-.fourth_text_title {
-  color: var(--, #2B2B2B);
+.fifth_title p{
+  color: #5C2020;
   font-family: "Noto Serif JP";
   font-size: 2rem;
   font-style: normal;
@@ -376,14 +413,29 @@ li {
   line-height: normal;
 }
 
-.fourth_text_contexts {
-  color: var(--, #2B2B2B);
-  font-family: "Noto Serif JP";
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  text-align: left;
+.fifth_contents {
+  display: flex;
+  
+}
+
+.fifth_block {
+
+}
+
+.fifth_img {
+
+}
+
+.fifth_texts {
+
+}
+
+.fifth_text_title {
+
+}
+
+.fifth_text_detail {
+
 }
 
 
@@ -479,7 +531,7 @@ li {
 
   .third {
     width: 100%;
-    padding: 5vw 9vw 5vw clamp(7rem, 8vw, 8vw);
+    padding: 5vw 9vw 5vw clamp(10rem, 10vw, 10vw);
   }
   
   .third_contents {
@@ -516,44 +568,74 @@ li {
   }
   
   .fourth {
-
+    width: 100%;
+    padding: 7vw;
+    gap: 5vw;
   }
   
-  .fourth_title {
-  
+  .fourth_main_titile p{
+    font-size: clamp(1.125rem, 3vw, 2rem);
   }
   
-  .fourth_main_titile {
-  
-  }
-  
-  .fourth_sub_title {
-  
+  .fourth_sub_title p{
+    font-size: clamp(1rem, 2vw, 1.125rem);
   }
   
   .fourth_contents {
-  
+    gap: 5vw;
   }
   
   .fourth_details {
+    gap: 6vw;
+  }
+  
+  .fourth_img0 img{
+    width: 30vw;
+    height: auto;
+  }
+
+  .fourth_img1 img {
+    width: 26vw;
+    height: auto;
+  }
+
+  .fourth_img2 img {
+    width: 30vw;
+    height: auto;
+  }
+
+  .fifth {
+
+  }
+  
+  .fifth_title {
   
   }
   
-  .fourth_img0 {
+  .fifth_contents {
   
   }
   
-  .fourth_text {
+  .fifth_block {
   
   }
   
-  .fourth_text_title {
+  .fifth_img {
   
   }
   
-  .fourth_text_contexts {
+  .fifth_texts {
   
   }
+  
+  .fifth_text_title {
+  
+  }
+  
+  .fifth_text_detail {
+  
+  }
+  
   
   
 }
@@ -775,7 +857,7 @@ li {
   }
 
   .third {
-    padding: 3vw clamp(1.25rem, 2vw, 3vw) 10vw clamp(1.25rem, 2vw, 3vw);
+    padding: 3vw clamp(1.25rem, 2vw, 3vw) 10vw clamp(2.25rem, 2vw, 3vw);
   }
   
   .third_contents {
@@ -801,8 +883,8 @@ li {
   }
   
   .third_img1 img {
-    min-width: 8rem;
-    min-height: 8.9rem;
+    min-width: 7rem;
+    min-height: 7.9rem;
     width: 18vw;
     height: 20vw;
     margin-top: 0;
@@ -814,6 +896,69 @@ li {
   .third_img1{
     overflow-x: hidden;
   }
+  
+  .fourth {
+    width: 100%;
+    padding: 4vw;
+  }
+  
+  .fourth_details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fourth_img0 img{
+    width: 80%;
+    height: auto;
+  }
+  .fourth_img1 img{
+    width: 80%;
+    height: auto;
+  }
+  .fourth_img2 img{
+    width: 80%;
+    height: auto;
+  }
+  
+  .fourth_img0 {
+    order: 2;
+  }
+  
+  .fourth_text0 {
+    order: 1;
+  }
+  
+  
+  
+  .fourth_img1 {
+    order: 2;
+  }
+  
+  .fourth_text1 {
+    order: 1;
+  }
+  .fourth_img2 {
+    order: 2;
+  }
+  
+  .fourth_text2 {
+    order: 1;
+  }
+  
+  
+  .fourth_text_title p{
+    font-size: 1.5rem;
+    
+  }
+  
+  .fourth_text_contexts p{
+    font-size: 1rem;
+  }
+  
+  .fourth_img2 img{
+    width: 90%;
+  }
+  
   
   
 }
@@ -828,9 +973,9 @@ li {
   }
 
   .third_img1 img{
-    width: 12vw;
-    height: 14vw;
-    margin-top: -9vw;
+    width: 10vw;
+    height: 11vw;
+    margin-top: -13vw;
     margin-left: 63vw;
   }
   .third_img1{
