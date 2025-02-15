@@ -5,6 +5,7 @@ html {
 body {
   color: #2b2b2b;
   width: 100%;
+  overflow-x: hidden; 
 }
 
 a {
@@ -171,6 +172,221 @@ li {
   width: 100%;
   height: 7vw;
 }
+.second {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5.375rem;
+  padding: 5rem 8.84375rem;
+}
+
+.second_title {
+  display: flex;
+  justify-content: center;
+}
+.second_title p {
+  color: var(--, #2B2B2B);
+  font-family: "Noto Serif JP";
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.second_contents {
+  display: flex;
+  gap: 3.125rem;
+}
+
+.seccond_details {
+  display: flex;
+  flex-direction: column;
+  gap: 2.187rem;
+  width: 100%;
+  align-items: center;
+}
+
+.second_img {
+  width: 15.625rem;
+  height: 15.625rem;
+  /* margin: 0 1.9065rem 0 1.9065rem; */
+}
+
+.second_detail_title {
+  color: var(--, #2B2B2B);
+  text-align: center;
+  font-family: "Noto Serif JP";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.second_detail_contents {
+  color: var(--, #2B2B2B);
+  font-family: "Noto Serif JP";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.third {
+  width: 100%;
+  border-radius: 2px;
+  background: #FAF0E6;
+  padding: 3.75rem 12.5rem 3.75rem 8.75rem;
+}
+
+.third_contents {
+  display: flex;
+  gap: 6.5rem;
+}
+
+.third_title {
+  color: #5C2020;
+  font-family: "Noto Serif JP";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 21rem;
+}
+
+.third_subtitle {
+  color: #5C2020;
+  font-family: "Noto Serif JP";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0.687rem 0 1.625rem 0;
+}
+
+.third_details {
+  color: #5C2020;
+  font-family: "Noto Serif JP";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.third_img0 img {
+  width: 25.812rem;
+  height: 22.5rem;
+}
+
+.third_img1{
+  overflow-x: hidden;
+}
+
+.third_img1 img {
+  position: absolute;
+  width: 8.53rem;
+  height: 10.95rem;
+  margin-top: -6rem;
+  margin-left: -6rem;
+  transform: rotate(-10.292deg);
+  flex-shrink: 0;
+}
+
+.fourth {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5rem 13.625rem 5rem 8.75rem;
+  gap: 4.375rem;
+}
+
+.fourth_title {
+  width: 100%;
+}
+
+.fourth_main_titile {
+  color: var(--, #2B2B2B);
+  font-family: "Noto Serif JP";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.fourth_sub_title {
+  color: var(--, #2B2B2B);
+  text-align: center;
+  font-family: "Noto Serif JP";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.fourth_contents {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+
+.fourth_details {
+  display: flex;
+  flex-direction: row;
+  gap: 5.8125rem;
+}
+
+.fourth_img0 img {
+  width: 25.9375rem;
+  height: auto;
+}
+
+.fourth_img1 img {
+  width: 23.13rem;
+  height: 25.94rem;
+  flex-shrink: 0;
+}
+
+.fourth_img2 img {
+  width: 25.94rem;
+  height: 24.38rem;
+  flex-shrink: 0;
+}
+
+.fourth_text {
+  color: var(--, #2B2B2B);
+  font-family: "Noto Serif JP";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: left;
+  display: flex;
+  gap: 1.25rem;
+  flex-direction: column;
+}
+
+.fourth_text_title {
+  color: var(--, #2B2B2B);
+  font-family: "Noto Serif JP";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.fourth_text_contexts {
+  color: var(--, #2B2B2B);
+  font-family: "Noto Serif JP";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: left;
+}
+
+
 
 @media screen and (max-width: 1200px) {
   header {
@@ -231,6 +447,112 @@ li {
   
   .hero_description {
     font-size: clamp(2rem, 4.5vw, 3rem);
+  }
+  
+  .second {
+    width: 100%;
+    gap: 7.1vw;
+    padding: 7vw 10vw;
+  }
+  
+  .second_title p {
+    font-size: clamp(1.25rem, 5vw, 2.25rem);
+  }
+  
+  .second_contents {
+    gap:4.3vw;
+  }
+  
+  .seccond_details {
+    gap: 2.5vw;
+  }
+  
+  .second_img {
+    width: 80.38%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+  
+  .second_detail_title {
+    font-size: clamp(1rem, 1.7vw, 1.25rem);
+  }
+
+  .third {
+    width: 100%;
+    padding: 5vw 9vw 5vw clamp(7rem, 8vw, 8vw);
+  }
+  
+  .third_contents {
+    gap: 4vw;
+    width: 100%;
+  }
+  .third_description {
+    width: 100%;
+  }
+  .third_title {
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+    min-width: 19rem;
+    width: 100%;
+  }
+  
+  .third_subtitle {
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+  }
+  .third_img0 {
+    display: flex;
+    align-items: center;
+  }
+  .third_img0 img {
+    width: 22.812rem;
+    height: 18.5rem;
+  }
+  
+  .third_img1 img {
+    width: 7.53rem;
+    height: 9.95rem;
+  }
+  .third_img1{
+    overflow-x: hidden;
+  }
+  
+  .fourth {
+
+  }
+  
+  .fourth_title {
+  
+  }
+  
+  .fourth_main_titile {
+  
+  }
+  
+  .fourth_sub_title {
+  
+  }
+  
+  .fourth_contents {
+  
+  }
+  
+  .fourth_details {
+  
+  }
+  
+  .fourth_img0 {
+  
+  }
+  
+  .fourth_text {
+  
+  }
+  
+  .fourth_text_title {
+  
+  }
+  
+  .fourth_text_contexts {
+  
   }
   
   
@@ -434,10 +756,84 @@ li {
     font-size: clamp(1.5rem, 5vw, 3rem);
     top: clamp(17.625rem, 50vw, 50vw);
   }
+
+  .second_contents {
+    flex-direction: column;
+  }
+  
+  .second_img {
+    width: 15.625rem;
+    height: auto;
+  }
+  
+  .second_detail_title {
+    font-size: 1.25rem;
+  }
+  
+  .second_detail_contents {
+    font-size: 1rem;
+  }
+
+  .third {
+    padding: 3vw clamp(1.25rem, 2vw, 3vw) 10vw clamp(1.25rem, 2vw, 3vw);
+  }
+  
+  .third_contents {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .third_title {
+    font-size: 1.25rem;
+  }
+  
+  .third_subtitle p {
+    font-size: 1.125rem;
+  }
+  
+  .third_img0 {
+    justify-content: center;
+  }
+  .third_img0 img {
+    width: 22.06rem;
+    height: 19.44rem;
+    flex-shrink: 0;
+  }
+  
+  .third_img1 img {
+    min-width: 8rem;
+    min-height: 8.9rem;
+    width: 18vw;
+    height: 20vw;
+    margin-top: 0;
+    margin-left: 70vw;
+    margin-top: -7vw;
+    transform: rotate(69.482deg);
+  }
+  
+  .third_img1{
+    overflow-x: hidden;
+  }
+  
+  
 }
 
 @media screen and (max-width: 400px) {
   .hero_description {
     margin-left: 2vw;
+  }
+  .third_img0 img{
+    width: 100%;
+    height: auto;
+  }
+
+  .third_img1 img{
+    width: 12vw;
+    height: 14vw;
+    margin-top: -9vw;
+    margin-left: 63vw;
+  }
+  .third_img1{
+    overflow-x: hidden;
   }
 }
