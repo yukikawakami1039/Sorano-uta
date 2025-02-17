@@ -5,7 +5,7 @@ html {
 body {
   color: #2b2b2b;
   width: 100%;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 a {
@@ -22,7 +22,7 @@ header {
   justify-content: space-between;
 }
 
-.sp_nav { 
+.sp_nav {
   display: none;
 }
 
@@ -133,7 +133,7 @@ li {
 }
 
 .hero_title {
-  color: #5C2020;
+  color: #5c2020;
   font-family: "Noto Serif JP";
   font-size: 6rem;
   font-style: normal;
@@ -143,7 +143,7 @@ li {
 }
 
 .hero_subtitle {
-  color: #5C2020;
+  color: #5c2020;
   font-family: "Noto Serif JP";
   font-size: 6rem;
   font-style: normal;
@@ -156,7 +156,7 @@ li {
 }
 
 .hero_description {
-  color: #5C2020;
+  color: #5c2020;
   font-family: "Noto Serif JP";
   font-size: 3rem;
   font-style: normal;
@@ -168,7 +168,7 @@ li {
 }
 
 .hero_tag {
-  background: #FAF0E6;
+  background: #faf0e6;
   width: 100%;
   height: 7vw;
 }
@@ -186,7 +186,7 @@ li {
   justify-content: center;
 }
 .second_title p {
-  color: var(--, #2B2B2B);
+  color: var(--, #2b2b2b);
   font-family: "Noto Serif JP";
   font-size: 2.25rem;
   font-style: normal;
@@ -214,7 +214,7 @@ li {
 }
 
 .second_detail_title {
-  color: var(--, #2B2B2B);
+  color: var(--, #2b2b2b);
   text-align: center;
   font-family: "Noto Serif JP";
   font-size: 1.25rem;
@@ -224,7 +224,7 @@ li {
 }
 
 .second_detail_contents {
-  color: var(--, #2B2B2B);
+  color: var(--, #2b2b2b);
   font-family: "Noto Serif JP";
   font-size: 1rem;
   font-style: normal;
@@ -235,7 +235,7 @@ li {
 .third {
   width: 100%;
   border-radius: 2px;
-  background: #FAF0E6;
+  background: #faf0e6;
   padding: 3.75rem 12.5rem 3.75rem 8.75rem;
 }
 
@@ -245,7 +245,7 @@ li {
 }
 
 .third_title {
-  color: #5C2020;
+  color: #5c2020;
   font-family: "Noto Serif JP";
   font-size: 1.5rem;
   font-style: normal;
@@ -255,7 +255,7 @@ li {
 }
 
 .third_subtitle {
-  color: #5C2020;
+  color: #5c2020;
   font-family: "Noto Serif JP";
   font-size: 1.5rem;
   font-style: normal;
@@ -265,7 +265,7 @@ li {
 }
 
 .third_details {
-  color: #5C2020;
+  color: #5c2020;
   font-family: "Noto Serif JP";
   font-size: 1rem;
   font-style: normal;
@@ -278,7 +278,7 @@ li {
   height: 22.5rem;
 }
 
-.third_img1{
+.third_img1 {
   overflow-x: hidden;
 }
 
@@ -307,7 +307,7 @@ li {
 }
 
 .fourth_main_titile {
-  color: var(--, #2B2B2B);
+  color: var(--, #2b2b2b);
   font-family: "Noto Serif JP";
   font-size: 2rem;
   font-style: normal;
@@ -316,7 +316,7 @@ li {
 }
 
 .fourth_sub_title {
-  color: var(--, #2B2B2B);
+  color: var(--, #2b2b2b);
   text-align: center;
   font-family: "Noto Serif JP";
   font-size: 1.25rem;
@@ -342,9 +342,9 @@ li {
   height: auto;
 }
 
-.fourth_text1 p{
+.fourth_text1 p {
   order: 1;
-  color: var(--, #2B2B2B);
+  color: var(--, #2b2b2b);
   font-family: "Noto Serif JP";
   font-size: 1.125rem;
   font-style: normal;
@@ -377,8 +377,8 @@ li {
   flex-direction: column;
 }
 
-.fourth_text_title p{
-  color: #2B2B2B;
+.fourth_text_title p {
+  color: #2b2b2b;
   font-family: "Noto Serif JP";
   font-size: 2rem;
   font-style: normal;
@@ -387,8 +387,8 @@ li {
   white-space: nowrap;
 }
 
-.fourth_text_contexts p{
-  color: var(--, #2B2B2B);
+.fourth_text_contexts p {
+  color: var(--, #2b2b2b);
   font-family: "Noto Serif JP";
   font-size: 1.25rem;
   font-style: normal;
@@ -399,15 +399,15 @@ li {
 
 .fifth {
   width: 100%;
-  background-color: #FAF0E6;
+  background-color: #faf0e6;
   display: flex;
   flex-direction: column;
   gap: 5.81rem;
   padding: 3vw 10vw;
 }
 
-.fifth_title p{
-  color: #5C2020;
+.fifth_title p {
+  color: #5c2020;
   font-family: "Noto Serif JP";
   font-size: 2rem;
   font-style: normal;
@@ -443,7 +443,7 @@ li {
   justify-content: center;
 }
 
-.fifth_img img{
+.fifth_img img {
   width: 14.38rem;
   height: 14.25rem;
 }
@@ -455,7 +455,7 @@ li {
 }
 
 .fifth_text_title p {
-  color: var(--, #2B2B2B);
+  color: var(--, #2b2b2b);
   text-align: center;
   font-family: "Noto Serif JP";
   font-size: 1.25rem;
@@ -468,7 +468,7 @@ li {
 }
 
 .fifth_text_detail p {
-  color: var(--, #2B2B2B);
+  color: var(--, #2b2b2b);
   font-family: "Noto Serif JP";
   font-size: 1rem;
   font-style: normal;
@@ -477,7 +477,7 @@ li {
   flex-wrap: wrap;
 }
 
-.fifth_img_absolute img{
+.fifth_img_absolute img {
   position: absolute;
   width: 13.56rem;
   height: 9.31rem;
@@ -501,7 +501,7 @@ li {
 }
 
 .sixth_title {
-  color: #2B2B2B;
+  color: #2b2b2b;
   font-family: "Noto Serif JP";
   font-size: 2rem;
   font-style: normal;
@@ -526,25 +526,26 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: #DEB7B7;
+  background: #deb7b7;
   width: 43.75rem; /* 700px ÷ 16 = 43.75rem */
   height: 5rem; /* 80px ÷ 16 = 5rem */
-  flex-shrink: 0; 
+  flex-shrink: 0;
   padding: 0.94rem; /* 15px ÷ 16 ≒ 0.94rem */
   margin-bottom: 1.56rem; /* 25px ÷ 16 ≒ 1.56rem */
 }
 
 .sixth_menu {
-  color: #5C2020;
+  color: #5c2020;
   font-family: "Noto Serif JP";
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  white-space: nowrap;    }
+  white-space: nowrap;
+}
 
 .sixth_detail {
-  color: #5C2020;
+  color: #5c2020;
   font-family: "Noto Serif JP";
   font-size: 1rem;
   font-style: normal;
@@ -564,7 +565,7 @@ li {
 }
 
 .price p {
-  color: var(--, #2B2B2B);
+  color: var(--, #2b2b2b);
   font-family: "Noto Serif JP";
   font-size: 2rem;
   font-style: normal;
@@ -588,6 +589,187 @@ li {
   flex-shrink: 0;
 }
 
+/* 最後にremにする */
+.seventh {
+  width: 100%;
+  background: #faf0e6;
+  padding: 3.75rem 0 7.625rem 0; /* 60px, 154px, 122px, 154px -> rem */
+}
+
+.seventh_contents {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 4.25rem; /* 68px -> rem */
+}
+
+.seventh_title p {
+  color: #5c2020;
+  font-family: "Noto Serif JP";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.seventh_imgs0 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.25rem;
+  max-width: 70rem;
+}
+
+.seventh_img0 {
+  width: 14rem; /* 224px -> rem */
+  height: 15.8125rem; /* 253px -> rem */
+  flex-shrink: 0;
+}
+
+.seventh_img1 {
+  width: 22rem; /* 352px -> rem */
+  height: 19.9375rem; /* 319px -> rem */
+  flex-shrink: 0;
+}
+
+.seventh_img2 {
+  width: 20.3125rem; /* 325px -> rem */
+  height: 15.4375rem; /* 247px -> rem */
+  flex-shrink: 0;
+}
+
+.seventh_img3 {
+  width: 16.375rem; /* 262px -> rem */
+  height: 12.9375rem; /* 207px -> rem */
+  flex-shrink: 0;
+}
+
+.seventh_img4 {
+  width: 18rem; /* 288px -> rem */
+  height: 12.9375rem; /* 207px -> rem */
+  flex-shrink: 0;
+}
+
+.seventh_img5 {
+  width: 20.6875rem; /* 331px -> rem */
+  height: 12.9375rem; /* 207px -> rem */
+  flex-shrink: 0;
+}
+.eighth {
+  width: 100%;
+  padding: 80px 10px 100px 10px;
+}
+
+.eighth_contents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 85px;
+}
+
+.eighth_title p {
+  color: #2b2b2b;
+  font-family: "Noto Serif JP";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.eighth_blocks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  gap: 46px 58px;
+}
+
+.eight_block {
+  border-radius: 8px;
+  border: 1px solid #deb7b7;
+  background: #fff;
+  padding: 13px 21px 51px 27px;
+  width: 471px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.eighth_person {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  gap: 22px;
+  margin-bottom: 10px;
+}
+
+.eighth_img img {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.eighth_explain {
+  display: flex;
+  flex-direction: column;
+}
+
+.eighth_block_title p {
+  color: #2b2b2b;
+  font-family: "Noto Serif JP";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.eighth_block_detail p {
+  color: #2b2b2b;
+  font-family: "Noto Serif JP";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.eighth_text {
+  text-align: left;
+}
+
+/* .eighth_text p br {
+  display: block;    
+  margin-bottom: 1em; 
+}  */
+
+.eighth_text p {
+  color: #2b2b2b;
+  font-family: "Noto Serif JP";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.slider-container {
+}
+
+.arrow {
+  display: none;
+}
+
+.arrow-left {
+  display: none;
+}
+
+.arrow-right {
+  display: none;
+}
+
 @media screen and (max-width: 1200px) {
   header {
     height: 7vw;
@@ -605,74 +787,74 @@ li {
 
   .logo {
     width: 13vw;
-    min-width:  6rem;
+    min-width: 6rem;
     margin-right: 10vw;
     display: block;
   }
-  
+
   .head_link {
     font-size: 1.1rem;
   }
-  
+
   .head_btn {
     width: 20vw;
     min-width: 12.5rem;
     margin-left: 5vw;
   }
-  
+
   .head_button {
     font-size: clamp(1rem, 3vw, 1.25rem);
-  } 
-  
+  }
+
   .hero {
     width: 100%;
   }
-  
+
   .hero_img img {
     min-width: 14rem;
     width: 100%;
     height: 70vw;
   }
-  
+
   .hero_title {
     font-size: clamp(5rem, 10vw, 6rem);
   }
-  
+
   .hero_subtitle {
     font-size: clamp(5rem, 10vw, 6rem);
   }
-  .hero_subtitle span{
+  .hero_subtitle span {
     font-size: clamp(3rem, 7vw, 4rem);
   }
-  
+
   .hero_description {
     font-size: clamp(2rem, 4.5vw, 3rem);
   }
-  
+
   .second {
     width: 100%;
     gap: 7.1vw;
     padding: 7vw 10vw;
   }
-  
+
   .second_title p {
     font-size: clamp(1.25rem, 5vw, 2.25rem);
   }
-  
+
   .second_contents {
-    gap:4.3vw;
+    gap: 4.3vw;
   }
-  
+
   .seccond_details {
     gap: 2.5vw;
   }
-  
+
   .second_img {
     width: 80.38%;
     height: auto;
     aspect-ratio: 1 / 1;
   }
-  
+
   .second_detail_title {
     font-size: clamp(1rem, 1.7vw, 1.25rem);
   }
@@ -681,7 +863,7 @@ li {
     width: 100%;
     padding: 5vw 9vw 5vw clamp(10rem, 10vw, 10vw);
   }
-  
+
   .third_contents {
     gap: 4vw;
     width: 100%;
@@ -694,7 +876,7 @@ li {
     min-width: 19rem;
     width: 100%;
   }
-  
+
   .third_subtitle {
     font-size: clamp(1.25rem, 3vw, 1.5rem);
   }
@@ -706,38 +888,38 @@ li {
     width: 22.812rem;
     height: 18.5rem;
   }
-  
+
   .third_img1 img {
     width: 7.53rem;
     height: 9.95rem;
   }
-  .third_img1{
+  .third_img1 {
     overflow-x: hidden;
   }
-  
+
   .fourth {
     width: 100%;
     padding: 7vw;
     gap: 5vw;
   }
-  
-  .fourth_main_titile p{
+
+  .fourth_main_titile p {
     font-size: clamp(1.125rem, 3vw, 2rem);
   }
-  
-  .fourth_sub_title p{
+
+  .fourth_sub_title p {
     font-size: clamp(1rem, 2vw, 1.125rem);
   }
-  
+
   .fourth_contents {
     gap: 5vw;
   }
-  
+
   .fourth_details {
     gap: 6vw;
   }
-  
-  .fourth_img0 img{
+
+  .fourth_img0 img {
     width: 30vw;
     height: auto;
   }
@@ -757,25 +939,25 @@ li {
     gap: 7vw;
     padding: 7vw 0;
   }
-  
-  .fifth_title p{
+
+  .fifth_title p {
     font-size: clamp(1.125rem, 3vw, 2rem);
   }
-  
+
   .fifth_contents {
     width: 100%;
     gap: 7vw;
   }
-  
+
   .fifth_block {
     width: 100%;
     height: auto;
     padding: 1vw 4vw;
     min-width: 0;
   }
-  
+
   .fifth_img {
-    display: flex;               /* これを追加 */
+    display: flex; /* これを追加 */
     width: 100%;
     align-items: center;
   }
@@ -784,24 +966,24 @@ li {
     width: 14.38rem;
     height: 13.25rem;
   }
-  
+
   .sixth {
     width: 100%;
     padding: 4vw clamp(3vw, 4vw, 7vw);
   }
-  
+
   .sixth_contents {
     gap: 4vw;
   }
-  
+
   .sixth_title {
     font-size: clamp(1.25rem, 3vw, 2rem);
   }
-  
+
   .sixth_block {
     gap: 2.5vw;
   }
-  
+
   .sixth_texts {
     width: auto;
     height: auto;
@@ -809,38 +991,112 @@ li {
     margin-bottom: 4vw;
     align-items: center;
   }
-  
+
   .sixth_menu {
     font-size: clamp(1.25rem, 3vw, 2rem);
   }
-  
+
   .sixth_detail {
     width: 65%;
     margin-left: 0.5vw;
   }
-  
+
   .price {
     gap: 2vw; /* 28px ÷ 16 = 1.75rem */
   }
-  
+
   .price p {
-    color: #2B2B2B;
+    color: #2b2b2b;
     font-size: clamp(1.125rem, 3vw, 2rem);
   }
-  
+
   .price img {
     width: 18.5rem; /* 328px ÷ 16 = 20.5rem */
   }
-  
+
   /* .price_space {
     margin-left: 2.6rem;
   } */
-  
+
   .sixth_img img {
     width: 15.88rem; /* 270px ÷ 16 ≒ 16.88rem */
     height: 15.25rem; /* 260px ÷ 16 = 16.25rem */
   }
-  
+  .seventh {
+    padding: 4vw 2vw 9vw 2vw;
+  }
+
+  .seventh_contents {
+    gap: 4vw;
+  }
+
+  .seventh_title p {
+    font-size: clamp(1.25rem, 3vw, 2rem);
+  }
+
+  .seventh_imgs0 {
+    width: 100%;
+    height: auto;
+    gap: 3vw;
+    flex-wrap: wrap;
+  }
+
+  .seventh_img0 {
+    width: 19vw;
+    height: auto;
+    min-width: 12rem;
+  }
+
+  .seventh_img1 {
+    width: 29.3vw;
+    height: auto;
+    min-width: 19rem;
+  }
+
+  .seventh_img2 {
+    width: 27.5vw;
+    height: auto;
+    min-width: 17.5rem;
+  }
+
+  .seventh_img3 {
+    width: 22.5vw;
+    min-width: 14rem;
+    height: auto;
+  }
+
+  .seventh_img4 {
+    width: 25vw;
+    min-width: 16rem;
+    height: auto;
+  }
+
+  .seventh_img5 {
+    width: 28vw;
+    min-width: 18rem;
+    height: auto;
+  }
+  .eighth_contents {
+    gap: 5vw;
+  }
+
+  .eighth_blocks {
+    gap: 3.5vw;
+  }
+
+  .eight_block {
+    padding: 2vw;
+    width: 46.5%;
+  }
+
+  .eighth_person {
+    gap: 1vw;
+  }
+
+  .eighth_img img {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 @media screen and (max-width: 864px) {
@@ -892,7 +1148,7 @@ li {
     line-height: normal;
     border-radius: 0.75rem; /* 12px -> 0.75rem */
   }
-  
+
   .sp_head_btn:hover {
     border-radius: 0.75rem; /* 12px -> 0.75rem */
     background: #ebaaaa;
@@ -905,14 +1161,13 @@ li {
     /* 本来、PC時には非表示、SP時には表示したいため、
        ここでは display: block; とします */
     display: none;
-
   }
 
   /* --- ハンバーガーアイコン（ラベル）のスタイル --- */
   .hamburger-label {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);/* 中心に合わせる */
+    transform: translateY(-50%); /* 中心に合わせる */
     right: 3vw;
     margin-right: 3vw;
     width: 6vw;
@@ -935,7 +1190,7 @@ li {
     width: 6vw;
     min-width: 3.5rem;
     height: 0.187rem;
-    background-color: #5C2020; /* 黒 */
+    background-color: #5c2020; /* 黒 */
     transition: 0.3s ease;
   }
 
@@ -961,8 +1216,8 @@ li {
   .sp_nav ul {
     position: fixed;
     top: 0;
-    right: 0;           /* 右端に固定 */
-    width: auto;      /* 横幅60%まで開く */
+    right: 0; /* 右端に固定 */
+    width: auto; /* 横幅60%まで開く */
     height: 100vh;
     margin: 0;
     padding: 3vw 4vw;
@@ -1026,7 +1281,7 @@ li {
   }
 
   .hero_title {
-    margin-right: 9vw;  
+    margin-right: 9vw;
     font-size: clamp(2.5rem, 9vw, 5rem);
   }
 
@@ -1045,16 +1300,16 @@ li {
   .second_contents {
     flex-direction: column;
   }
-  
+
   .second_img {
     width: 15.625rem;
     height: auto;
   }
-  
+
   .second_detail_title {
     font-size: 1.25rem;
   }
-  
+
   .second_detail_contents {
     font-size: 1rem;
   }
@@ -1062,20 +1317,20 @@ li {
   .third {
     padding: 3vw clamp(1.25rem, 2vw, 3vw) 10vw clamp(2.25rem, 2vw, 3vw);
   }
-  
+
   .third_contents {
     display: flex;
     flex-direction: column;
   }
-  
+
   .third_title {
     font-size: 1.25rem;
   }
-  
+
   .third_subtitle p {
     font-size: 1.125rem;
   }
-  
+
   .third_img0 {
     justify-content: center;
   }
@@ -1084,7 +1339,7 @@ li {
     height: 19.44rem;
     flex-shrink: 0;
   }
-  
+
   .third_img1 img {
     min-width: 7rem;
     min-height: 7.9rem;
@@ -1095,73 +1350,69 @@ li {
     margin-top: -7vw;
     transform: rotate(69.482deg);
   }
-  
-  .third_img1{
+
+  .third_img1 {
     overflow-x: hidden;
   }
-  
+
   .fourth {
     width: 100%;
     padding: 4vw;
   }
-  
+
   .fourth_details {
     display: flex;
     flex-direction: column;
   }
-  
-  .fourth_img0 img{
+
+  .fourth_img0 img {
     width: 80%;
     height: auto;
   }
-  .fourth_img1 img{
+  .fourth_img1 img {
     width: 80%;
     height: auto;
   }
-  .fourth_img2 img{
+  .fourth_img2 img {
     width: 80%;
     height: auto;
   }
-  
+
   .fourth_img0 {
     order: 2;
   }
-  
+
   .fourth_text0 {
     order: 1;
   }
-  
-  
-  
+
   .fourth_img1 {
     order: 2;
   }
-  
+
   .fourth_text1 {
     order: 1;
   }
   .fourth_img2 {
     order: 2;
   }
-  
+
   .fourth_text2 {
     order: 1;
   }
-  
-  
-  .fourth_text_title p{
+
+  .fourth_text_title p {
     font-size: 1.5rem;
-    
   }
-  
-  .fourth_text_contexts p{
+
+  .fourth_text_contexts p {
     font-size: 1rem;
   }
-  
-  .fourth_img2 img{
+
+  .fourth_img2 img {
     width: 90%;
   }
-  
+
   .fifth {
     width: 100%;
     padding: 0 4vw clamp(5rem, 10vw, 10vw) 4vw;
@@ -1172,27 +1423,144 @@ li {
     width: 100%;
     padding: 4vw 7vw;
   }
-  
+
   .sixth_block {
     flex-direction: column;
   }
-  
+
   .sixth_explain {
     width: 100%;
-
   }
 
-  
   .price img {
     width: 40vw;
   }
-  
+
   .price_space {
-    margin: 0 ;
+    margin: 0;
+  }
+  .seventh {
+    padding: 4vw 2vw 9vw 2vw;
+  }
+
+  .seventh_imgs0 {
+    width: 100%;
+    height: auto;
+    gap: 3vw;
+  }
+
+  .seventh_img0 {
+    width: 19vw;
+    height: auto;
+  }
+
+  .seventh_img1 {
+    width: 29.3vw;
+    height: auto;
+  }
+
+  .seventh_img2 {
+    width: 27.5vw;
+    height: auto;
+  }
+
+  .seventh_img3 {
+    width: 22.5vw;
+    height: auto;
+  }
+
+  .seventh_img4 {
+    width: 25vw;
+    height: auto;
+  }
+
+  .seventh_img5 {
+    width: 28vw;
+    height: auto;
+  }
+  .eighth {
+    width: 100%;
+  }
+
+  .eighth_contents {
+  }
+
+  .eighth_title {
+  }
+
+  .eighth_blocks {
+    width: 100%;
+    transition: transform 0.5s ease;
+  }
+
+  .eight_block {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .eighth_person {
+  }
+
+  .eighth_img {
+  }
+
+  .eighth_explain {
+  }
+
+  .eighth_block_title {
+  }
+
+  .eighth_block_detail {
+  }
+
+  .eighth_text {
+  }
+
+  .slider-container {
+    position: relative; /* 子要素の絶対配置に必要 */
+    overflow: hidden;   /* 横スクロールを隠す場合 */
+    width: 100%;        /* お好みで */
+    max-width: 400px;   /* SPサイズ想定なら幅を制限してもOK */
+    margin: 0 auto;     /* 中央寄せなどお好みで */
   }
   
+
+  .arrow {
+    position: absolute;         /* 親（.slider-container）を基準に配置 */
+    top: 50%;                   /* 縦方向の中央 */
+    transform: translateY(-50%);/* 中央寄せのために移動 */
+    /* 円形デザイン */
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    
+    /* ボタンの見た目 */
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;          /* 矢印文字のサイズ */
+    display: flex;              /* 中身(矢印文字)を中央寄せ */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;                /* スライドより前面に表示するため */
+  }
   
-}
+  /* 左矢印は左端に */  
+  .arrow-left {
+    left: 0.5rem;
+  }
+  
+  /* 右矢印は右端に */
+  .arrow-right {
+    right: 0.5rem;
+  }
+  
+  /* お好みでホバー時の色を変える */
+  .arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
 
 @media screen and (max-width: 510px) {
   .sixth_texts {
@@ -1213,26 +1581,24 @@ li {
     margin: 0;
     width: 100%;
   }
-
-  
 }
 
 @media screen and (max-width: 400px) {
   .hero_description {
     margin-left: 2vw;
   }
-  .third_img0 img{
+  .third_img0 img {
     width: 100%;
     height: auto;
   }
 
-  .third_img1 img{
+  .third_img1 img {
     width: 10vw;
     height: 11vw;
     margin-top: -13vw;
     margin-left: 63vw;
   }
-  .third_img1{
+  .third_img1 {
     overflow-x: hidden;
   }
 
@@ -1261,15 +1627,69 @@ li {
   .fifth_text_detail p {
     flex-wrap: wrap;
   }
-  .fifth_img_absolute img{
+  .fifth_img_absolute img {
     width: 11.56rem;
-    height: 7.31rem; 
+    height: 7.31rem;
     margin-top: -4rem;
+  }
+  .seventh {
+    padding: 8vw 2vw 12vw 2vw;
+  }
+
+  .seventh_contents {
+    gap: 8vw;
+  }
+
+  .seventh_imgs0 {
+    width: 100%;
+    height: auto;
+    gap: 3vw;
+  }
+
+  .seventh_img0 {
+    width: 90%;
+    height: auto;
+    min-width: auto;
+  }
+
+  .seventh_img1 {
+    width: 90%;
+    height: auto;
+    min-width: auto;
+    margin: -6vw 0;
+  }
+
+  .seventh_img2 {
+    width: 90%;
+    height: auto;
+    min-width: auto;
+    margin: 3vw 0;
+  }
+
+  .seventh_img3 {
+    width: 90%;
+    height: auto;
+    min-width: auto;
+    margin: 3vw 0;
+  }
+
+  .seventh_img4 {
+    width: 90%;
+    height: auto;
+    min-width: auto;
+    margin: 3vw 0;
+  }
+
+  .seventh_img5 {
+    width: 100%;
+    height: auto;
+    min-width: auto;
+    margin: 3vw 0;
   }
 }
 
 @media screen and (max-width: 370px) {
   .hero_description {
-    font-size: 1.3  rem;
+    font-size: 1.3 rem;
   }
 }
