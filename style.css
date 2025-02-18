@@ -234,7 +234,7 @@ li {
 
 .third {
   width: 100%;
-  border-radius: 2px;
+  border-radius: 0.125rem; /* 2px -> 0.125rem */
   background: #faf0e6;
   padding: 3.75rem 12.5rem 3.75rem 8.75rem;
 }
@@ -660,7 +660,7 @@ li {
 }
 .eighth {
   width: 100%;
-  padding: 80px 10px 100px 10px;
+  padding: 5rem 0.625rem 6.25rem 0.625rem; /* 80px, 10px, 100px, 10px -> rem */
 }
 
 .eighth_contents {
@@ -668,13 +668,13 @@ li {
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 85px;
+  gap: 5.3125rem; /* 85px -> rem */
 }
 
 .eighth_title p {
   color: #2b2b2b;
   font-family: "Noto Serif JP";
-  font-size: 32px;
+  font-size: 2rem; /* 32px -> rem */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -687,15 +687,15 @@ li {
   justify-content: center;
   width: 100%;
   height: auto;
-  gap: 46px 58px;
+  gap: 2.875rem 3.625rem; /* 46px, 58px -> rem */
 }
 
 .eight_block {
-  border-radius: 8px;
-  border: 1px solid #deb7b7;
+  border-radius: 0.5rem; /* 8px -> rem */
+  border: 0.0625rem solid #deb7b7; /* 1px -> rem */
   background: #fff;
-  padding: 13px 21px 51px 27px;
-  width: 471px;
+  padding: 0.8125rem 1.3125rem 3.1875rem 1.6875rem; /* 13px, 21px, 51px, 27px -> rem */
+  width: 29.4375rem; /* 471px -> rem */
   height: auto;
   flex-shrink: 0;
 }
@@ -704,13 +704,13 @@ li {
   display: flex;
   flex-direction: row;
   text-align: left;
-  gap: 22px;
-  margin-bottom: 10px;
+  gap: 1.375rem; /* 22px -> rem */
+  margin-bottom: 0.625rem; /* 10px -> rem */
 }
 
 .eighth_img img {
-  width: 100px;
-  height: 100px;
+  width: 6.25rem; /* 100px -> rem */
+  height: 6.25rem; /* 100px -> rem */
   flex-shrink: 0;
 }
 
@@ -722,7 +722,7 @@ li {
 .eighth_block_title p {
   color: #2b2b2b;
   font-family: "Noto Serif JP";
-  font-size: 20px;
+  font-size: 1.25rem; /* 20px -> rem */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -731,7 +731,7 @@ li {
 .eighth_block_detail p {
   color: #2b2b2b;
   font-family: "Noto Serif JP";
-  font-size: 16px;
+  font-size: 1rem; /* 16px -> rem */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -749,13 +749,10 @@ li {
 .eighth_text p {
   color: #2b2b2b;
   font-family: "Noto Serif JP";
-  font-size: 16px;
+  font-size: 1rem; /* 16px -> rem */
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-}
-
-.slider-container {
 }
 
 .arrow {
@@ -769,6 +766,177 @@ li {
 .arrow-right {
   display: none;
 }
+
+.slider-dots {
+  display: none;
+}
+
+.dot {
+  display: inline-block;
+  width: 0.8rem; /* ドットのサイズ */
+  height: 0.8rem;
+  margin: 0 0.3rem; /* ドット同士の隙間 */
+  border-radius: 50%; /* 円形 */
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+/* アクティブなドットだけ色を変える */
+.dot.active {
+  background-color: #f33; /* お好みの強調色 */
+}
+
+.nineth {
+  width: 100%;
+  height: auto;
+}
+
+.nineth_conteiner {
+  width: 100%;
+  height: auto;
+  background: #FAF0E6;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 80px 0;
+  gap: 74px;
+}
+
+.nineth_title p {
+  color: #5C2020;
+  font-family: "Noto Serif JP";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nineth_contents {
+  display: flex;
+  width: 100%;
+  height: auto;
+  gap: 92px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nineth_img img {
+  width: 300px;
+  height: 445px;
+  flex-shrink: 0;
+}
+
+.nineth_texts {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: left;
+  width: 503px;
+}
+
+.nineth_subtitle p {
+  color: #5C2020;
+  font-family: "Noto Serif JP";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nineth_name p {
+  color: #5C2020;
+  font-family: "Noto Serif JP";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nineth_detail p {
+  color: #5C2020;
+  font-family: "Noto Serif JP";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.tenth {
+  width: 100%;
+  height: auto;
+}
+.tenth_conteiner {
+  width: 100%;
+  height: auto;
+  padding: 5rem 0; /* 80px -> 5rem */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5.3125rem; /* 85px -> 5.3125rem */
+}
+
+.tenth_title p {
+  color: var(--, #2B2B2B);
+  font-family: "Noto Serif JP";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.tenth_contents {
+  width: 62.5rem; /* 1000px -> 62.5rem */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 2.125rem; /* 34px -> 2.125rem */
+  margin: 0 auto;
+}
+
+.tenth_block {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.tenth_block_title {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5625rem 2.5rem 0.625rem 1.5625rem; /* 9px 40px 10px 25px -> rem */
+  border: 0.0625rem solid #DEB7B7; /* 1px -> 0.0625rem */
+  background: #FFF;
+}
+
+.tenth_block_title img {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.tenth_block.open .tenth_block_title img {
+  transform: rotate(180deg);
+}
+
+.tenth_text {
+  width: 100%;
+  height: auto;
+  display: none;
+  text-align: left;
+  padding: 0.5625rem 2.5rem 0.625rem 1.5625rem; /* 9px 40px 10px 25px -> rem */
+  border: 0.0625rem solid #DEB7B7; /* 1px -> 0.0625rem */
+  background: #FFF;
+}
+
+.tenth_block.open .tenth_text {
+  display: block;
+}
+
+
 
 @media screen and (max-width: 1200px) {
   header {
@@ -1097,6 +1265,47 @@ li {
     width: 90px;
     height: 90px;
   }
+
+  .nineth_contents {
+    gap: 6vw;
+  }
+  
+  .nineth_img img {
+    width: 30vw;
+    height: auto;
+  }
+  
+  .nineth_texts {
+    gap: 1vw;
+    width: 60vw;
+  }
+  
+  .tenth_conteiner {
+    gap: 4vw;
+    padding: 4vw 3vw 7vw 3vw;
+  }
+  
+  .tenth_title p {
+    font-size: clamp(1.25rem, 3vw, 2rem);
+  }
+  
+  .tenth_contents {
+    width: 100%;
+    gap: 3vw;
+  }
+  
+  .tenth_block_title {
+    text-align: left;
+    padding: 2vw;
+  }
+  
+  .tenth_text {
+    padding: 2vw;
+  }
+  
+  
+  
+  
 }
 
 @media screen and (max-width: 864px) {
@@ -1480,87 +1689,115 @@ li {
   }
   .eighth {
     width: 100%;
-  }
-
-  .eighth_contents {
-  }
-
-  .eighth_title {
+    padding-bottom: 5vw;
   }
 
   .eighth_blocks {
-    width: 100%;
+    width: 400%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     transition: transform 0.5s ease;
   }
 
   .eight_block {
-    width: 100%;
+    width: 24%;
+    height: auto;
     box-sizing: border-box;
-  }
-
-  .eighth_person {
-  }
-
-  .eighth_img {
-  }
-
-  .eighth_explain {
-  }
-
-  .eighth_block_title {
-  }
-
-  .eighth_block_detail {
-  }
-
-  .eighth_text {
+    flex-shrink: 0;
+    padding: 3vw 6vw 8vw 6vw;
   }
 
   .slider-container {
     position: relative; /* 子要素の絶対配置に必要 */
-    overflow: hidden;   /* 横スクロールを隠す場合 */
-    width: 100%;        /* お好みで */
-    max-width: 400px;   /* SPサイズ想定なら幅を制限してもOK */
-    margin: 0 auto;     /* 中央寄せなどお好みで */
+    /* 横スクロールを隠す場合 */
+    width: 100%; /* お好みで */
+    margin: 0 auto;
   }
-  
 
   .arrow {
-    position: absolute;         /* 親（.slider-container）を基準に配置 */
-    top: 50%;                   /* 縦方向の中央 */
-    transform: translateY(-50%);/* 中央寄せのために移動 */
+    position: absolute; /* 親（.slider-container）を基準に配置 */
+    top: 50%; /* 縦方向の中央 */
+    transform: translateY(-50%); /* 中央寄せのために移動 */
     /* 円形デザイン */
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
-    
+
     /* ボタンの見た目 */
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: #deb7b7;
     color: #fff;
     border: none;
-    font-size: 1.5rem;          /* 矢印文字のサイズ */
-    display: flex;              /* 中身(矢印文字)を中央寄せ */
+    font-size: 1.3rem; /* 矢印文字のサイズ */
+    display: flex; /* 中身(矢印文字)を中央寄せ */
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    z-index: 10;                /* スライドより前面に表示するため */
+    z-index: 10; /* スライドより前面に表示するため */
   }
-  
-  /* 左矢印は左端に */  
+
+  /* 左矢印は左端に */
   .arrow-left {
-    left: 0.5rem;
+    display: block;
+    left: 0vw;
   }
-  
+
   /* 右矢印は右端に */
   .arrow-right {
-    right: 0.5rem;
+    display: block;
+    right: 0vw;
   }
-  
+
   /* お好みでホバー時の色を変える */
   .arrow:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #deb7b77c;
+  }
+  .slider-dots {
+    display: block;
+    text-align: center; /* ドットを中央寄せ */
+    margin-top: 1rem; /* スライダーとの隙間 */
+  }
+
+  .dot {
+    display: inline-block;
+    width: 0.8rem; /* ドットのサイズ */
+    height: 0.8rem;
+    margin: 0 0.3rem; /* ドット同士の隙間 */
+    border-radius: 50%; /* 円形 */
+    background-color: #ccc;
+    cursor: pointer;
+  }
+
+  /* アクティブなドットだけ色を変える */
+  .dot.active {
+    background-color: #5c2020; /* お好みの強調色 */
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nineth_conteiner {
+    gap: 3vw;
+    padding: 5vw 4vw;
   }
   
+  .nineth_title p {
+    font-size: clamp(1.25rem, 3vw, 2rem);
+  }
+  
+  .nineth_contents {
+    flex-direction: column;
+    gap: 5vw;
+  }
+  
+  .nineth_texts {
+    width: 100%;
+    height: auto;
+  }
+  
+  .nineth_subtitle p {
+    font-size: 1rem;
+  }
+}
 
 @media screen and (max-width: 510px) {
   .sixth_texts {
@@ -1691,5 +1928,8 @@ li {
 @media screen and (max-width: 370px) {
   .hero_description {
     font-size: 1.3 rem;
+  }
+  .nineth_subtitle p {
+    font-size: 0.9rem;
   }
 }

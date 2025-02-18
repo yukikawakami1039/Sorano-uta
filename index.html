@@ -404,6 +404,91 @@
           <button class="arrow arrow-left">&#10094;</button>
           <button class="arrow arrow-right">&#10095;</button>
         </div>
+        <div class="slider-dots">
+          <!-- data-index にスライド番号を仕込む -->
+          <span class="dot active" data-index="0"></span>
+          <span class="dot" data-index="1"></span>
+          <span class="dot" data-index="2"></span>
+          <span class="dot" data-index="3"></span>
+        </div>
+      </div>
+    </div>
+    <div class="nineth">
+      <div class="nineth_conteiner">
+        <div class="nineth_title">
+          <p>セラピスト紹介</p>
+        </div>
+        <div class="nineth_contents">
+          <div class="nineth_img">
+            <img src="img\クライアント様写真.png" alt="">
+          </div>
+          <div class="nineth_texts">
+            <div class="nineth_subtitle">
+              <p>日本おうち整体協会認定 セラピスト・講師<br>WILD GREE認定 足もみセラピスト・講師</p>
+            </div>
+            <div class="nineth_name">
+              <p>川上みさ</p>
+            </div>
+            <div class="nineth_detail">
+              <p>おうち整体®（氣功整体）に出逢い、私自身、西洋医療では手立てがなかった膝の痛みや体質と諦めていた頭痛、便秘、花粉症が改善。家族の低体温が36度台になったり、副鼻腔炎が改善するなど、体の変化に目から鱗でした。症状は敵ではなく、必要があって起きていること、氣を巡らせ・血を巡らせ・また心を巡らせることが健やかな毎日を送るために欠かせないことを知り、自身や家族、特に子ども達の不調にも動じないでいられるようになりました。その経験をもとに氣功整体で皆様の体が本来持っている巡る力と排出力をあげるお手伝いをさせて頂いています。<br>また、全ての不調は血流から、という気づきの中で出会った血液循環法の足もみを習得。足をもむだけで、手の届かない箇所や内臓の深部まで血流改善ができること、体の持つ力に感動！現在はおうち整体®の氣功整体と足もみの二本柱で施術と講師の活動をしています。<br>
+                体質改善したい、心も体も元気になりたいと願う女性の笑顔のお手伝いをさせて頂けたら幸いです。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tenth">
+      <div class="tenth_conteiner">
+        <div class="tenth_title">
+          <p>よくあるご質問</p>
+        </div>
+        <div class="tenth_contents">
+          <div class="tenth_block">
+            <div class="tenth_block_title">
+              <p>Q. 施術は痛くないですか？</p>
+              <img src="img\ooui_previous-ltr.png" alt="">
+            </div>
+            <div class="tenth_text">
+              <p>A.はい、足もみは「痛い」と感じる場合があります。特に不調がある部分の反射区（足裏や脚部の特定箇所）を刺激する際に、痛みを感じることが多いです。<br>しかし、この「痛気持ちいい」感覚が血流やリンパの流れを促し、老廃物の排出を助け、不調改善に繋がります。痛みの強さはお客様に合わせて調整しながら、受けて頂いています。</p>
+            </div>
+          </div>
+          <div class="tenth_block">
+            <div class="tenth_block_title">
+              <p>Q. 施術を受ける際の服装はどうすればいいですか？</p>
+              <img src="img\ooui_previous-ltr.png" alt="">
+            </div>
+            <div class="tenth_text">
+              <p>A. リラックスできる動きやすい服装でお越しください。必要に応じてお持ちいただいた衣服にお着替えいただいても構いません。</p>
+            </div>
+          </div>
+          <div class="tenth_block">
+            <div class="tenth_block_title">
+              <p>Q. 体の知識が全くない私でもおうち整体や足もみを習うことが出来るっていうのは本当ですか？</p>
+              <img src="img\ooui_previous-ltr.png" alt="">
+            </div>
+            <div class="tenth_text">
+              <p>A. はい、本当です！空の詩では受講生さんは皆さん、体のことなど勉強したことのない方達がほとんどですが、ご自身やご家族の不調を治めるようなり、そう言えば薬を飲まなくなった、病院に行くことが激減したなとたくさんご報告を頂いています。スキンシップで以前より会話が増えたと喜ばれています。</p>
+            </div>
+          </div>
+          <div class="tenth_block">
+            <div class="tenth_block_title">
+              <p>Q. クレジットカードは使えますか？</p>
+              <img src="img\ooui_previous-ltr.png" alt="">
+            </div>
+            <div class="tenth_text">
+              <p>A. 現在、現金でのお支払いのみ対応しております。</p>
+            </div>
+          </div>
+          <div class="tenth_block">
+            <div class="tenth_block_title">
+              <p>Q. 駐車場はありますか？</p>
+              <img src="img\ooui_previous-ltr.png" alt="">
+            </div>
+            <div class="tenth_text">
+              <p>A. 1台分の駐車場があります。車でお越しの際はご一報いただけると幸いです。</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <script>
@@ -419,6 +504,69 @@
         });
       });
     </script>
-    
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // スライダー要素の取得
+    const sliderContainer = document.querySelector('.eighth_blocks');
+    const slides = document.querySelectorAll('.eight_block');
+    const leftArrow = document.querySelector('.arrow-left');
+    const rightArrow = document.querySelector('.arrow-right');
+
+    // ドット要素の取得
+    const dots = document.querySelectorAll('.dot');
+
+    let currentIndex = 0;
+    const totalSlides = slides.length; // 4枚なら 4
+
+    // スライダーの位置を更新する関数
+    function updateSlider() {
+      // currentIndex に応じてスライドを移動
+      // 1枚あたり 25% 分ずつ移動する
+      sliderContainer.style.transform = `translateX(-${currentIndex * 25}%)`;
+
+      // ドットのアクティブ切り替え
+      dots.forEach(dot => dot.classList.remove('active'));
+      dots[currentIndex].classList.add('active');
+    }
+
+    // 左矢印クリックで前のスライドへ
+    leftArrow.addEventListener('click', function () {
+      currentIndex = (currentIndex === 0) ? totalSlides - 1 : currentIndex - 1;
+      updateSlider();
+    });
+
+    // 右矢印クリックで次のスライドへ
+    rightArrow.addEventListener('click', function () {
+      currentIndex = (currentIndex === totalSlides - 1) ? 0 : currentIndex + 1;
+      updateSlider();
+    });
+
+    // ドットをクリックすると指定のスライドへ
+    dots.forEach(dot => {
+      dot.addEventListener('click', () => {
+        const index = Number(dot.getAttribute('data-index'));
+        currentIndex = index;
+        updateSlider();
+      });
+    });
+  });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // 全ての質問ブロック (.tenth_block) を取得
+      const blocks = document.querySelectorAll('.tenth_block');
+
+      // 各ブロックに対してイベントを設定
+      blocks.forEach(block => {
+        const title = block.querySelector('.tenth_block_title img');
+
+        // タイトル部分がクリックされたとき
+        title.addEventListener('click', () => {
+          // クリックされたブロックに .open クラスをトグル（付け外し）
+          block.classList.toggle('open');
+        });
+      });
+    });
+  </script>
   </body>
 </html>
