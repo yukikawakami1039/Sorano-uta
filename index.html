@@ -10,10 +10,10 @@
   </head>
   <body>
     <header>
-      <div class="head">
+      <div id="home" class="head">
         <img src="img\ロゴ.png" class="logo" />
         <nav class="pc_nav">
-          <ul>
+          <ul class="head_list">
             <li><a href="#home" class="head_link">ホーム</a></li>
             <li><a href="#menu" class="head_link">施術内容</a></li>
             <li><a href="#custmer" class="head_link">お客様の声</a></li>
@@ -250,7 +250,7 @@
         <img src="img\グリーン2.png" alt="" />
       </div>
     </div>
-    <div class="sixth">
+    <div id="menu" class="sixth">
       <div class="sixth_contents">
         <div class="sixth_title">
           <p>料金</p>
@@ -336,7 +336,7 @@
         </div>
       </div>
     </div>
-    <div class="eighth">
+    <div id="custmer" class="eighth">
       <div class="eighth_contents">
         <div class="eighth_title">
           <p>お客様の声</p>
@@ -442,12 +442,10 @@
               </div>
             </div>
           </div>
-          <!-- 左右の矢印ボタン -->
           <button class="arrow arrow-left">&#10094;</button>
           <button class="arrow arrow-right">&#10095;</button>
         </div>
         <div class="slider-dots">
-          <!-- data-index にスライド番号を仕込む -->
           <span class="dot active" data-index="0"></span>
           <span class="dot" data-index="1"></span>
           <span class="dot" data-index="2"></span>
@@ -552,7 +550,7 @@
         </div>
       </div>
     </div>
-    <div class="eleventh">
+    <div id="ask" class="eleventh">
       <div class="eleventh_container">
         <div class="eleventh_title">
           <p class="eleventh_maintitle">ご予約・お問い合わせはこちらから</p>
@@ -626,6 +624,80 @@
         </div>
       </div>
     </div>
+    <div id="access" class="thirteenth">
+      <div class="thirteenth_container">
+        <div class="thirteenth_title">
+          <p>アクセス</p>
+        </div>
+        <div class="thirteenth_contents">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3990.275022011!2d139.5822216507288!3d35.56886074661004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f7c1b74be0ef%3A0x650d182b0943e11f!2z5rCj5Yqf5pW05L2TIOepuuOBruipqQ!5e0!3m2!1sja!2sjp!4v1739966702183!5m2!1sja!2sjp"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="thirteenth_text">
+            <img src="img\ロゴ.png" alt="" />
+            <p class="address_number">〒216-0002</p>
+            <p class="address">神奈川県川崎市宮前区有馬4-20-17</p>
+            <p class="time">営業時間：10:00～18:00</p>
+            <p class="station">
+              最寄駅：<br />
+              鷺沼駅・センター北駅
+            </p>
+            <p class="spnum">電話番号：090-1859-6747</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="footer_container">
+          <div class="footer_text">
+            <img src="img\ロゴ.png" alt="" />
+            <ul class="sp_footer_menu">
+              <li><a href="#home">トップ</a></li>
+              <li><p>｜</p></li>
+              <li><a href="#menu">施術内容</a></li>
+              <li><p>｜</p></li>
+              <li><a href="#menu">料金</a></li>
+              <li><p>｜</p></li>
+              <li><a href="#access">アクセス</a></li>
+              <li><p>｜</p></li>
+              <li><a href="#ask">お問い合わせ</a></li>
+            </ul>
+            <p class="footer_address">神奈川県川崎市宮前区有馬4-20-17</p>
+            <p class="footer_time">営業時間：10:00～18:00<br>※時間外もご相談ください
+              <a
+              href="https://www.instagram.com/eigo_miyu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              class="sp_footer_sns">
+              <img src="img\SNSアイコン.png" alt="" />
+            </a>
+            </p>
+            <a
+              href="https://www.instagram.com/eigo_miyu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              class="footer_sns"
+            >
+              <img src="img\SNSアイコン.png" alt="" />
+            </a>
+          </div>
+          <ul class="footer_menu">
+            <li><a href="#home">トップ</a></li>
+            <li><p>｜</p></li>
+            <li><a href="#menu">施術内容</a></li>
+            <li><p>｜</p></li>
+            <li><a href="#menu">料金</a></li>
+            <li><p>｜</p></li>
+            <li><a href="#access">アクセス</a></li>
+            <li><p>｜</p></li>
+            <li><a href="#ask">お問い合わせ</a></li>
+          </ul>
+        </div>
+    </footer>
     <script>
       // ページ読み込み後に実行
       document.addEventListener("DOMContentLoaded", function () {
@@ -704,6 +776,21 @@
             // クリックされたブロックに .open クラスをトグル（付け外し）
             block.classList.toggle("open");
           });
+        });
+      });
+    </script>
+    <script>
+      // CSS の scroll-behavior: smooth が使えない環境向けに、JS でスムーズスクロールを実装
+      document.querySelectorAll(".footer_menu a").forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute("href").substring(1);
+          const targetElement = document.getElementById(targetId);
+          if (targetElement) {
+            targetElement.scrollIntoView({
+              behavior: "smooth",
+            });
+          }
         });
       });
     </script>
