@@ -41,7 +41,7 @@ nav {
 }
 
 li {
-  margin: 0 0.9375rem; 
+  margin: 0 0.9375rem;
 }
 
 .hamburger {
@@ -112,9 +112,12 @@ li {
 ひょうじさせないようにすると画面幅もおかしくならずに済むのでは */
 .hero_img img {
   width: 100%;
-  height: 42.75rem;
+  height: 45rem;
+  /* height: 45vw; */
   display: block;
   position: relative;
+  object-fit: cover; /* コンテナを覆いつつ、アスペクト比を維持 */
+  object-position: center; /* 画像の中心を表示 */
 }
 
 .sp_hero_img {
@@ -125,7 +128,7 @@ li {
   display: flex;
   position: absolute;
   justify-content: center;
-  margin: 11.85rem 0 4rem 0;
+  margin: 10.85rem 0 4rem 0;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -196,15 +199,18 @@ li {
 
 .second_contents {
   display: flex;
+  align-items: center;
+  margin: 0 auto;
   gap: 3.125rem;
+  max-width: 75rem;
 }
 
 .seccond_details {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 2.187rem;
   width: 100%;
-  align-items: center;
 }
 
 .second_img {
@@ -237,11 +243,14 @@ li {
   border-radius: 0.125rem; /* 2px -> 0.125rem */
   background: #faf0e6;
   padding: 3.75rem 12.5rem 3.75rem 8.75rem;
+  align-items: center;
 }
 
 .third_contents {
   display: flex;
+  max-width: 75rem;
   gap: 6.5rem;
+  margin: 0 auto;
 }
 
 .third_title {
@@ -328,6 +337,7 @@ li {
 .fourth_contents {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1.875rem;
 }
 
@@ -335,6 +345,7 @@ li {
   display: flex;
   flex-direction: row;
   gap: 5.8125rem;
+  max-width: 75rem;
 }
 
 .fourth_img0 img {
@@ -402,6 +413,7 @@ li {
   background-color: #faf0e6;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 5.81rem;
   padding: 3vw 10vw;
 }
@@ -417,6 +429,7 @@ li {
 }
 
 .fifth_contents {
+  max-width: 80.625rem;
   display: flex;
   gap: 5rem;
   flex-wrap: wrap;
@@ -668,6 +681,7 @@ li {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
   gap: 5.3125rem; /* 85px -> rem */
 }
 
@@ -686,6 +700,7 @@ li {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+  max-width: 1500px;
   height: auto;
   gap: 2.875rem 3.625rem; /* 46px, 58px -> rem */
 }
@@ -1099,6 +1114,12 @@ li {
   gap: 0.9375rem;
 }
 
+.twentieth_btn0:hover {
+  background: #b8ab84;
+  box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25); /* 4px -> 0.25rem */
+  transform: translateY(0.1875rem); /* 3px -> 0.1875rem */
+}
+
 .twentieth_btn0 p,
 .twentieth_btn1 p {
   color: #2b2b2b;
@@ -1132,10 +1153,16 @@ li {
   gap: 0.4375rem;
 }
 
+.twentieth_btn1:hover {
+  background: #cddb69f6;
+  box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25); /* 4px -> 0.25rem */
+  transform: translateY(0.1875rem); /* 3px -> 0.1875rem */
+}
+
 .thirteenth {
   width: 100%;
   height: auto;
-} 
+}
 
 .thirteenth_container {
   width: 100%;
@@ -1148,7 +1175,7 @@ li {
 }
 
 .thirteenth_title p {
-  color: #2B2B2B;
+  color: #2b2b2b;
   font-family: "Noto Serif JP";
   font-size: 2rem;
   font-style: normal;
@@ -1178,7 +1205,7 @@ li {
 }
 
 .address_number {
-  color: #2B2B2B;
+  color: #2b2b2b;
   font-family: "Noto Serif JP";
   font-size: 1rem;
   font-style: normal;
@@ -1187,7 +1214,7 @@ li {
 }
 
 .address {
-  color: #2B2B2B;
+  color: #2b2b2b;
   font-family: "Noto Serif JP";
   font-size: 1.25rem;
   font-style: normal;
@@ -1196,7 +1223,7 @@ li {
 }
 
 .time {
-  color: #2B2B2B;
+  color: #2b2b2b;
   font-family: "Noto Serif JP";
   font-size: 1.25rem;
   font-style: normal;
@@ -1206,16 +1233,16 @@ li {
 }
 
 .station {
-  color: #2B2B2B;
+  color: #2b2b2b;
   font-family: "Noto Serif JP";
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;  
+  line-height: normal;
 }
 
 .spnum {
-  color: #2B2B2B;
+  color: #2b2b2b;
   font-family: "Noto Serif JP";
   font-size: 1.25rem;
   font-style: normal;
@@ -1227,16 +1254,17 @@ li {
 footer {
   width: 100%;
   height: auto;
-  background: #FAF0E6;
+  background: #faf0e6;
   display: flex;
   justify-content: center;
 }
 
 .footer_container {
   width: 80%;
+  max-width: 75rem;
   height: auto;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   padding: 2.5rem 0 4.875rem 0;
 }
 
@@ -1254,7 +1282,7 @@ footer {
 
 .footer_address,
 .footer_time {
-  color: #5C2020;
+  color: #5c2020;
   font-family: "Noto Serif JP";
   font-size: 1.25rem;
   font-style: normal;
@@ -1277,7 +1305,7 @@ footer {
 
 .footer_menu a,
 .footer_menu p {
-  color: #5C2020;
+  color: #5c2020;
   font-family: "Noto Serif JP";
   font-size: 1.25rem;
   font-style: normal;
@@ -1664,9 +1692,9 @@ li {
 
   .footer_container {
     width: 90%;
-    padding: 4vw 0 5vw 0; 
+    padding: 4vw 0 5vw 0;
   }
-  
+
   .footer_text {
     gap: 2vw;
   }
@@ -1674,7 +1702,7 @@ li {
   .footer_text img {
     width: 10rem;
   }
-  
+
   .footer_address,
   .footer_time {
     font-size: clamp(1rem, 2vw, 1.25rem);
@@ -1691,12 +1719,11 @@ li {
     gap: 0.5vw;
     margin: 0;
   }
-  
+
   .footer_menu a,
   .footer_menu p {
     font-size: 1rem;
   }
-
 }
 
 @media screen and (max-width: 864px) {
@@ -2273,23 +2300,23 @@ li {
     min-width: 15.47px;
     height: auto;
   }
-  
+
   .thirteenth_container {
     gap: 6vw;
     padding: 6vw 4vw;
   }
-  
+
   .thirteenth_title p {
     font-size: clamp(1.25rem, 3vw, 2rem);
   }
-  
+
   .thirteenth_contents {
     flex-direction: column;
     width: 100%;
     max-width: 28.13rem;
     gap: 5vw;
   }
-  
+
   .map iframe {
     width: 100%;
     max-width: 28.13rem;
@@ -2297,25 +2324,25 @@ li {
     aspect-ratio: 5 / 4;
     margin: 0 auto;
   }
-  
+
   .thirteenth_text img {
     width: 160px;
     height: 73px;
     flex-shrink: 0;
     margin-bottom: 25px;
   }
-  
+
   .address_number {
     font-size: 1rem;
   }
-  
+
   .address,
   .time,
   .station,
   .spnum {
     font-size: 1.25rem;
   }
-  
+
   .time {
     margin: 25px 0 31px 0;
   }
@@ -2330,10 +2357,10 @@ li {
     display: flex;
     gap: 0.5vw;
   }
-  
+
   .sp_footer_menu a,
   .sp_footer_menu p {
-    color: #5C2020;
+    color: #5c2020;
     font-family: "Noto Serif JP";
     font-size: 0.9rem;
     font-style: normal;
@@ -2341,7 +2368,7 @@ li {
     line-height: normal;
     flex-shrink: 0;
   }
-    
+
   .footer_container {
     display: flex;
     flex-direction: column;
@@ -2349,7 +2376,7 @@ li {
     align-items: center;
     padding: 7vw 0;
   }
-  
+
   .footer_text {
     text-align: left;
     gap: 0;
@@ -2367,13 +2394,13 @@ li {
   .footer_address {
     margin: 27px 0 25px 0;
   }
-  
+
   .footer_time {
     display: flex;
     justify-content: space-between;
     width: 90%;
   }
-  
+
   .footer_sns {
     display: none;
   }
@@ -2392,14 +2419,10 @@ li {
   .sp_footer_sns > img {
     margin: 0;
   }
-  
+
   .footer_menu {
     display: none;
   }
-
-
-  
-  
 }
 
 @media screen and (max-width: 700px) {
@@ -2425,7 +2448,7 @@ li {
   .nineth_subtitle p {
     font-size: 1rem;
   }
-  
+
   .twentieth_title p {
     font-size: clamp(1.25rem, 3vw, 2rem);
   }
@@ -2435,16 +2458,16 @@ li {
     line-height: 1.4;
     white-space: wrap;
   }
-  
+
   .twentieth_contents {
     flex-direction: column;
     gap: 7vw;
   }
-  
+
   .twentieth_block {
     gap: 7vw;
   }
-  
+
   .twentieth_btn0,
   .twentieth_btn1 {
     width: 80%;
@@ -2655,7 +2678,7 @@ li {
   .sp_footer_menu {
     gap: 0.1vw;
   }
-  
+
   .sp_footer_menu a,
   .sp_footer_menu p {
     font-size: 0.8rem;
