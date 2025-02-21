@@ -245,6 +245,7 @@ li {
   padding: 3.75rem 12.5rem 3.75rem 8.75rem;
   align-items: center;
   overflow-x: hidden;
+  position: relative;
 }
 
 .third_contents {
