@@ -41,7 +41,7 @@
             <li><a href="#access" class="head_link">アクセス</a></li>
             <li>
               <div class="sp_head_btn">
-                <a href="" class="sp_head_button"
+                <a href="https://www.reservestock.jp/pc_reserves_v3/courses/35299" class="sp_head_button"
                   >ご予約はこちら
                   <img src="img\Vector.png" alt="" />
                 </a>
@@ -735,7 +735,7 @@
         // ドット要素の取得
         const dots = document.querySelectorAll(".dot");
 
-        let currentIndex = 0;
+        let currentIndex = 0; 
         const totalSlides = slides.length; // 4枚なら 4
 
         // スライダーの位置を更新する関数
@@ -743,7 +743,7 @@
           // currentIndex に応じてスライドを移動
           // 1枚あたり 25% 分ずつ移動する
           sliderContainer.style.transform = `translateX(-${
-            currentIndex * 25
+            currentIndex * 100
           }%)`;
 
           // ドットのアクティブ切り替え
