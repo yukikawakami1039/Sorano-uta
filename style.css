@@ -299,7 +299,7 @@ li {
   width: 8.53rem;
   height: 10.95rem;
   margin-top: -6rem;
-  margin-left: -6rem;
+  left: 2rem;
   transform: rotate(-10.292deg);
   flex-shrink: 0;
 }
@@ -1976,7 +1976,7 @@ li {
     width: 18vw;
     height: 20vw;
     margin-top: 0;
-    margin-left: 70vw;
+    left: 70vw;
     margin-top: -7vw;
     transform: rotate(69.482deg);
   }
@@ -2584,7 +2584,7 @@ li {
     width: 10vw;
     height: 11vw;
     margin-top: -13vw;
-    margin-left: 63vw;
+    left: 70vw;
   }
   .third_img1 {
     overflow-x: hidden;
