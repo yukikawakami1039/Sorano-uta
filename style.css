@@ -71,7 +71,7 @@ li {
 
 .head_link {
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
@@ -82,7 +82,7 @@ li {
 .head_btn {
   margin-left: 4.375rem;
   background: #deb7b7;
-  box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25); /* 4px -> 0.25rem */
+  box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25);
   width: 13.25rem;
   height: 3.75rem;
   padding: 1rem 1.25rem 1rem 1.43rem;
@@ -92,35 +92,33 @@ li {
 .head_button {
   white-space: nowrap;
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
-  border-radius: 0.75rem; /* 12px -> 0.75rem */
+  border-radius: 0.75rem;
 }
 
 .head_btn:hover {
-  border-radius: 0.75rem; /* 12px -> 0.75rem */
+  border-radius: 0.75rem;
   background: #ebaaaa;
-  box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25); /* 4px -> 0.25rem */
-  transform: translateY(0.1875rem); /* 3px -> 0.1875rem */
+  box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25);
+  transform: translateY(0.1875rem);
 }
 
 .hero {
   width: 100%;
   position: relative;
 }
-/* バックグラウンドイメージをmin-widthを設定して、はみ出した部分は画面に
-ひょうじさせないようにすると画面幅もおかしくならずに済むのでは */
+
 .hero_img img {
   width: 100%;
   height: 45rem;
-  /* height: 45vw; */
   display: block;
   position: relative;
-  object-fit: cover; /* コンテナを覆いつつ、アスペクト比を維持 */
-  object-position: center; /* 画像の中心を表示 */
+  object-fit: cover;
+  object-position: center;
 }
 
 .sp_hero_img {
@@ -140,20 +138,20 @@ li {
 
 .hero_title {
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 6rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1;
   margin-right: 6.75rem;
 }
 
 .hero_subtitle {
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 6rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1;
 }
 
@@ -167,11 +165,11 @@ li {
 
 .hero_description {
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 3rem;
   font-style: normal;
   font-weight: 600;
-  line-height: normal;
+  line-height: 1.3;
   top: 30rem;
   margin-left: 10%;
   position: absolute;
@@ -182,6 +180,7 @@ li {
   width: 100%;
   height: 7vw;
 }
+
 .second {
   width: 100%;
   height: auto;
@@ -195,18 +194,19 @@ li {
   display: flex;
   justify-content: center;
 }
+
 .second_title p {
   color: var(--, #2b2b2b);
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 2.25rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
 .second_contents {
   display: flex;
-  align-items: center;
+
   margin: 0 auto;
   gap: 3.125rem;
   max-width: 75rem;
@@ -223,22 +223,21 @@ li {
 .second_img {
   width: 15.625rem;
   height: 15.625rem;
-  /* margin: 0 1.9065rem 0 1.9065rem; */
 }
 
 .second_detail_title {
   color: var(--, #2b2b2b);
   text-align: center;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
 .second_detail_contents {
   color: var(--, #2b2b2b);
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
@@ -265,31 +264,31 @@ li {
 
 .third_title {
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.5rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
   width: 21rem;
 }
 
 .third_subtitle {
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.5rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
   margin: 0.687rem 0 1.625rem 0;
 }
 
 .third_details {
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  line-height: 1.4;
 }
 
 .third_img0 img {
@@ -327,20 +326,20 @@ li {
 
 .fourth_main_titile {
   color: var(--, #2b2b2b);
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 2rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
 .fourth_sub_title {
   color: var(--, #2b2b2b);
   text-align: center;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
@@ -366,11 +365,11 @@ li {
 .fourth_text1 p {
   order: 1;
   color: var(--, #2b2b2b);
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  line-height: 1.5;
 }
 
 .fourth_img1 {
@@ -393,28 +392,39 @@ li {
 .fourth_text {
   width: 100%;
   text-align: left;
-  display: flex;
+  display: flex;    
   gap: 1.25rem;
   flex-direction: column;
 }
 
+.fourth_text {
+  color: var(--, #2b2b2b);
+  font-family: "BIZ UDPMincho", serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: left;
+}
+
 .fourth_text_title p {
   color: #2b2b2b;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 2rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
   white-space: nowrap;
+  margin-bottom: 2vw;
 }
 
 .fourth_text_contexts p {
   color: var(--, #2b2b2b);
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  line-height: 1.3;
   text-align: left;
 }
 
@@ -430,10 +440,10 @@ li {
 
 .fifth_title p {
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 2rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
   text-align: center;
 }
@@ -455,7 +465,7 @@ li {
   min-width: 21rem;
   max-width: 24rem;
   height: auto;
-  min-height: 28.93rem;
+  min-height: 25.93rem;
   gap: 0.93rem;
   padding: 0.75rem 2.5rem;
 }
@@ -480,23 +490,24 @@ li {
 .fifth_text_title p {
   color: var(--, #2b2b2b);
   text-align: center;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
+
 .fifth_text_detail {
   text-align: left;
 }
 
 .fifth_text_detail p {
   color: var(--, #2b2b2b);
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  line-height: 1.3;
   flex-wrap: wrap;
 }
 
@@ -520,24 +531,24 @@ li {
   display: flex;
   text-align: center;
   flex-direction: column;
-  gap: 3.13rem; /* 50px ÷ 16 ≒ 3.13rem */
+  gap: 3.13rem;
 }
 
 .sixth_title {
   color: #2b2b2b;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 2rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
-  margin-bottom: 1.88rem; /* 30px ÷ 16 ≒ 1.88rem */
+  margin-bottom: 1.88rem;
 }
 
 .sixth_block {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 2.75rem; /* 44px ÷ 16 = 2.75rem */
+  gap: 2.75rem;
 }
 
 .sixth_explain {
@@ -550,31 +561,31 @@ li {
   flex-direction: row;
   justify-content: space-between;
   background: #deb7b7;
-  width: 43.75rem; /* 700px ÷ 16 = 43.75rem */
-  height: 5rem; /* 80px ÷ 16 = 5rem */
+  width: 43.75rem;
+  height: 5rem;
   flex-shrink: 0;
-  padding: 0.94rem; /* 15px ÷ 16 ≒ 0.94rem */
-  margin-bottom: 1.56rem; /* 25px ÷ 16 ≒ 1.56rem */
+  padding: 0.94rem;
+  margin-bottom: 1.56rem;
 }
 
 .sixth_menu {
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 2rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
   white-space: nowrap;
 }
 
 .sixth_detail {
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
-  width: 24.31rem; /* 389px ÷ 16 ≒ 24.31rem */
+  line-height: 1.3;
+  width: 24.31rem;
   height: auto;
   text-align: left;
 }
@@ -584,22 +595,22 @@ li {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 1.75rem; /* 28px ÷ 16 = 1.75rem */
+  gap: 1.75rem;
 }
 
 .price p {
   color: var(--, #2b2b2b);
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 2rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
   flex-wrap: nowrap;
 }
 
 .price img {
-  width: 20.5rem; /* 328px ÷ 16 = 20.5rem */
-  height: 0.0625rem; /* 1px ÷ 16 = 0.0625rem */
+  width: 20.5rem;
+  height: 0.0625rem;
 }
 
 .price_space {
@@ -607,16 +618,15 @@ li {
 }
 
 .sixth_img img {
-  width: 16.88rem; /* 270px ÷ 16 ≒ 16.88rem */
-  height: 16.25rem; /* 260px ÷ 16 = 16.25rem */
+  width: 16.88rem;
+  height: 16.25rem;
   flex-shrink: 0;
 }
 
-/* 最後にremにする */
 .seventh {
   width: 100%;
   background: #faf0e6;
-  padding: 3.75rem 0 7.625rem 0; /* 60px, 154px, 122px, 154px -> rem */
+  padding: 3.75rem 0 7.625rem 0;
 }
 
 .seventh_contents {
@@ -624,15 +634,15 @@ li {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  gap: 4.25rem; /* 68px -> rem */
+  gap: 4.25rem;
 }
 
 .seventh_title p {
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 2rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
@@ -681,6 +691,7 @@ li {
   height: 12.9375rem; /* 207px -> rem */
   flex-shrink: 0;
 }
+
 .eighth {
   width: 100%;
   padding: 5rem 0.625rem 6.25rem 0.625rem; /* 80px, 10px, 100px, 10px -> rem */
@@ -697,10 +708,10 @@ li {
 
 .eighth_title p {
   color: #2b2b2b;
-  font-family: "Noto Serif JP";
-  font-size: 2rem; /* 32px -> rem */
+  font-family: "BIZ UDPMincho", serif;
+  font-size: 2rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
@@ -712,15 +723,15 @@ li {
   width: 100%;
   max-width: 1500px;
   height: auto;
-  gap: 2.875rem 3.625rem; /* 46px, 58px -> rem */
+  gap: 2.875rem 3.625rem;
 }
 
 .eight_block {
-  border-radius: 0.5rem; /* 8px -> rem */
-  border: 0.0625rem solid #deb7b7; /* 1px -> rem */
+  border-radius: 0.5rem;
+  border: 0.0625rem solid #deb7b7;
   background: #fff;
-  padding: 0.8125rem 1.3125rem 3.1875rem 1.6875rem; /* 13px, 21px, 51px, 27px -> rem */
-  width: 29.4375rem; /* 471px -> rem */
+  padding: 0.8125rem 1.3125rem 3.1875rem 1.6875rem;
+  width: 29.4375rem;
   height: auto;
   flex-shrink: 0;
 }
@@ -729,13 +740,13 @@ li {
   display: flex;
   flex-direction: row;
   text-align: left;
-  gap: 1.375rem; /* 22px -> rem */
-  margin-bottom: 0.625rem; /* 10px -> rem */
+  gap: 1.375rem;
+  margin-bottom: 0.625rem;
 }
 
 .eighth_img img {
-  width: 6.25rem; /* 100px -> rem */
-  height: 6.25rem; /* 100px -> rem */
+  width: 6.25rem;
+  height: 6.25rem;
   flex-shrink: 0;
 }
 
@@ -746,19 +757,19 @@ li {
 
 .eighth_block_title p {
   color: #2b2b2b;
-  font-family: "Noto Serif JP";
-  font-size: 1.25rem; /* 20px -> rem */
+  font-family: "BIZ UDPMincho", serif;
+  font-size: 1.25rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
 .eighth_block_detail p {
   color: #2b2b2b;
-  font-family: "Noto Serif JP";
-  font-size: 1rem; /* 16px -> rem */
+  font-family: "BIZ UDPMincho", serif;
+  font-size: 1rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
@@ -766,18 +777,13 @@ li {
   text-align: left;
 }
 
-/* .eighth_text p br {
-  display: block;    
-  margin-bottom: 1em; 
-}  */
-
 .eighth_text p {
   color: #2b2b2b;
-  font-family: "Noto Serif JP";
-  font-size: 1rem; /* 16px -> rem */
+  font-family: "BIZ UDPMincho", serif;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  line-height: 1.3;
 }
 
 .arrow {
@@ -798,17 +804,16 @@ li {
 
 .dot {
   display: inline-block;
-  width: 0.8rem; /* ドットのサイズ */
+  width: 0.8rem;
   height: 0.8rem;
-  margin: 0 0.3rem; /* ドット同士の隙間 */
-  border-radius: 50%; /* 円形 */
+  margin: 0 0.3rem;
+  border-radius: 50%;
   background-color: #ccc;
   cursor: pointer;
 }
 
-/* アクティブなドットだけ色を変える */
 .dot.active {
-  background-color: #f33; /* お好みの強調色 */
+  background-color: #f33;
 }
 
 .nineth {
@@ -829,10 +834,10 @@ li {
 
 .nineth_title p {
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 2rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
@@ -861,61 +866,63 @@ li {
 
 .nineth_subtitle p {
   color: #5c2020;
-  font-family: "Noto Serif JP";
-  font-size: 14px;
+  font-family: "BIZ UDPMincho", serif;
+  font-size: 1rem;
   font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font-weight: 500;
+  line-height: 1.3;
 }
 
 .nineth_name p {
   color: #5c2020;
-  font-family: "Noto Serif JP";
-  font-size: 24px;
+  font-family: "BIZ UDPMincho", serif;
+  font-size: 1.5rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
 .nineth_detail p {
   color: #5c2020;
-  font-family: "Noto Serif JP";
-  font-size: 16px;
+  font-family: "BIZ UDPMincho", serif;
+  font-size: 1.1rem;
   font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: 500;
+  line-height: 1.3;
 }
+
 .tenth {
   width: 100%;
   height: auto;
 }
+
 .tenth_conteiner {
   width: 100%;
   height: auto;
-  padding: 5rem 0; /* 80px -> 5rem */
+  padding: 5rem 0;
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 5.3125rem; /* 85px -> 5.3125rem */
+  gap: 5.3125rem;
 }
 
 .tenth_title p {
   color: var(--, #2b2b2b);
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 2rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
 .tenth_contents {
-  width: 62.5rem; /* 1000px -> 62.5rem */
+  width: 62.5rem;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  gap: 2.125rem; /* 34px -> 2.125rem */
+  gap: 2.125rem;
   margin: 0 auto;
 }
 
@@ -933,8 +940,8 @@ li {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5625rem 2.5rem 0.625rem 1.5625rem; /* 9px 40px 10px 25px -> rem */
-  border: 0.0625rem solid #deb7b7; /* 1px -> 0.0625rem */
+  padding: 0.5625rem 2.5rem 0.625rem 1.5625rem;
+  border: 0.0625rem solid #deb7b7;
   background: #fff;
 }
 
@@ -952,8 +959,8 @@ li {
   height: auto;
   display: none;
   text-align: left;
-  padding: 0.5625rem 2.5rem 0.625rem 1.5625rem; /* 9px 40px 10px 25px -> rem */
-  border: 0.0625rem solid #deb7b7; /* 1px -> 0.0625rem */
+  padding: 0.5625rem 2.5rem 0.625rem 1.5625rem;
+  border: 0.0625rem solid #deb7b7;
   background: #fff;
 }
 
@@ -979,14 +986,15 @@ li {
 
 .eleventh_title p {
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
 .eleventh_maintitle {
   font-size: 2rem;
+  margin-bottom: 1vw;
 }
 
 .eleventh_subtitle {
@@ -1009,10 +1017,10 @@ li {
 
 .eleventh_block_title {
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 2rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
@@ -1039,18 +1047,21 @@ li {
 
 .number {
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.5rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
+
 .eleventh_block_sp {
   display: none;
 }
+
 .eleventh_num_sp {
   display: none;
 }
+
 .twentieth {
   width: 100%;
   height: auto;
@@ -1071,10 +1082,10 @@ li {
 
 .twentieth_title p {
   color: #2b2b2b;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 2rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
@@ -1084,10 +1095,10 @@ li {
 
 .twentieth_text p {
   color: #2b2b2b;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.3;
 }
 
@@ -1133,10 +1144,10 @@ li {
 .twentieth_btn0 p,
 .twentieth_btn1 p {
   color: #2b2b2b;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
@@ -1186,10 +1197,10 @@ li {
 
 .thirteenth_title p {
   color: #2b2b2b;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 2rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
@@ -1216,47 +1227,47 @@ li {
 
 .address_number {
   color: #2b2b2b;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal; /* 100% */
 }
 
 .address {
   color: #2b2b2b;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
 .time {
   color: #2b2b2b;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
   margin: 1.25rem 0 3.4375rem 0;
 }
 
 .station {
   color: #2b2b2b;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
 .spnum {
   color: #2b2b2b;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
   margin-top: 1.875rem;
 }
@@ -1293,10 +1304,10 @@ footer {
 .footer_address,
 .footer_time {
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
@@ -1316,10 +1327,10 @@ footer {
 .footer_menu a,
 .footer_menu p {
   color: #5c2020;
-  font-family: "Noto Serif JP";
+  font-family: "BIZ UDPMincho", serif;
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
 }
 
@@ -1710,6 +1721,11 @@ li {
     gap: 2vw;
   }
 
+  .footer_text > img {
+    display: block;
+    margin: 0 auto;
+  }
+
   .footer_text img {
     width: 10rem;
   }
@@ -1780,12 +1796,12 @@ li {
   .sp_head_button {
     white-space: nowrap;
     color: #5c2020;
-    font-family: "Noto Serif JP";
+    font-family: "BIZ UDPMincho", serif;
     font-size: 1.25rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
-    border-radius: 0.75rem; /* 12px -> 0.75rem */
+    border-radius: 0.75rem;
   }
 
   .sp_head_btn:hover {
@@ -2021,6 +2037,10 @@ li {
     order: 2;
   }
 
+  .fourth_text {
+    font-size: 1rem;
+  }
+
   .fourth_text0 {
     order: 1;
   }
@@ -2214,6 +2234,10 @@ li {
     padding: 7vw 2vw;
   }
 
+  .nineth_detail p {
+    font-size: 1rem;
+  }
+
   .eleventh_maintitle {
     font-size: clamp(1.25rem, 3vw, 2rem);
   }
@@ -2373,16 +2397,17 @@ li {
     display: block;
     list-style: none;
     display: flex;
+    align-items: center;
     gap: 0.5vw;
   }
 
   .sp_footer_menu a,
   .sp_footer_menu p {
     color: #5c2020;
-    font-family: "Noto Serif JP";
+    font-family: "BIZ UDPMincho", serif;
     font-size: 0.9rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
     flex-shrink: 0;
   }
@@ -2558,10 +2583,10 @@ li {
   .eleventh_block_sp p {
     display: block;
     color: #fff;
-    font-family: "Noto Serif JP";
+    font-family: "BIZ UDPMincho", serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
   }
   .eleventh_detail {
@@ -2710,7 +2735,7 @@ li {
   .sp_hero_description {
     display: block;
     color: #5c2020;
-    font-family: "Noto Serif JP";
+    font-family: "BIZ UDPMincho", serif;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
