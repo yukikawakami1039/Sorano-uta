@@ -316,7 +316,7 @@ li {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 5rem 13.625rem 5rem 8.75rem;
+  padding: 5rem 8.625rem 5rem 8.75rem;
   gap: 4.375rem;
 }
 
@@ -331,6 +331,7 @@ li {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-bottom: 1vw;
 }
 
 .fourth_sub_title {
@@ -560,6 +561,7 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   background: #deb7b7;
   width: 43.75rem;
   height: 5rem;
