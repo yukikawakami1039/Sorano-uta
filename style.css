@@ -14,6 +14,8 @@ a {
 }
 
 header {
+  position: fixed;
+  z-index: 1000;
   flex-direction: row;
   display: flex;
   align-items: center;
@@ -157,6 +159,10 @@ li {
 
 .hero_subtitle span {
   font-size: 4rem;
+}
+
+.sp_hero_description {
+  display: none;
 }
 
 .hero_description {
@@ -1736,7 +1742,8 @@ li {
     height: auto;
     min-height: 3.75rem;
     width: 100%;
-    position: relative;
+    position: fixed;
+    z-index: 1000;
   }
 
   .head {
@@ -2112,23 +2119,27 @@ li {
   }
   .eighth {
     width: 100%;
+    padding: 0;
     padding-bottom: 5vw;
   }
 
   .eighth_blocks {
     width: 400%;
+    max-width: none;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     transition: transform 0.5s ease;
+    gap: 1%;
+    margin: 0;
   }
 
   .eight_block {
-    width: 25%;
+    width: 24%;
     height: auto;
     box-sizing: border-box;
     flex-shrink: 0;
-    padding: 3vw 6vw 8vw 6vw;
+    padding: 3vw 3vw 8vw 3vw;
   }
 
   .slider-container {
@@ -2158,6 +2169,7 @@ li {
     justify-content: center;
     cursor: pointer;
     z-index: 10; /* スライドより前面に表示するため */
+    opacity: 0.7;
   }
 
   /* 左矢印は左端に */
@@ -2693,7 +2705,22 @@ li {
 }
 
 @media screen and (max-width: 370px) {
+
+
+  .sp_hero_description {
+    display: block;
+    color: #5c2020;
+    font-family: "Noto Serif JP";
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    top: clamp(17.625rem, 50vw, 50vw);
+    margin-left: 2vw;
+    position: absolute;
+    font-size: 1.5rem;
+  }
   .hero_description {
+    display: none;
     font-size: 1.3 rem;
   }
   .nineth_subtitle p {
